@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius+Unicase:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap');
+
+*{
+    margin: 0;
+    list-style: none;
+} 
+
+nav{
+    background: #6F6AF7;
+    height: 80px;
+    width: 100%;
+}
+label.icon{
+    color: white;
+    font-family: 'Delius Unicase', cursive;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0px 45px;
+} 
+
+.img1{
+    position: absolute;
+    top: 160px;
+    left: 129px;
+    height: 500px;
+    width: 450px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px #ccc;
+}
+
+.container1{
+    position: absolute;
+    width: 780px;
+    height: 495px;
+    left: 620px;
+    top: 160px;
+    background: #E5D8FF;
+    border: 6px solid #FFFFFF;
+    box-shadow: inset 3px 5px 27px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+.navbar{
+    position: absolute;
+    width: 100vw;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    background: #6F6AF7;
+}
+
+div ul{
+    display: flex;
+} 
+
+.logo{
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    left: 44px;
+    top: 27px;
+
+    font-family: 'Delius Unicase';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 15px;
+
+    color: #FFFFFF;
+} 
+
+.Home{
+    font-family: 'DM Sans', sans-serif;
+    position: absolute;
+    width: 102px;
+    height: 33px;
+    left: 350px;
+    top: 33px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+.About{
+    position: absolute;
+width: 157px;
+height: 36px;
+left: 500px;
+top: 33px;
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 18px;
+
+color: #FFFFFF;
+
+} 
+
+.Information{
+    position: absolute;
+width: 199px;
+height: 36px;
+left: 650px;
+top: 33px;
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 18px;
+
+color: #FFFFFF;
+
+} 
+
+.More{
+    position: absolute;
+width: 89px;
+height: 36px;
+left: 880px;
+top: 33px;
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 18px;
+
+color: #FFFFFF;
+} 
+
+#searchBar{
+    position: absolute;
+width: 300px;
+height: 36px;
+left: 1000px;
+top: 25px;
+
+background: #FFFFFF;
+border-radius: 63px;
+} 
+
+.bar{
+    position: absolute;
+left: 96.06%;
+right: 0px;
+top: 20px;
+color: white;
+} 
+
+.para{
+    padding: 30px;      
+    word-wrap: break-word;      
+    font-size: 24px;     
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 300;
+}  
+ 
+.whatsapp{
+    position: absolute;
+    right: 0;
+    top: 280px;
+    left: 95%;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+.facebook{
+    padding: 2px;
+    position: absolute;
+    right: 0;
+    top: 360px;
+    left: 95%;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+.twitter{
+    padding:7px;
+    position: absolute;
+    right: 0;
+    top: 440px;
+    left: 95%;
+    border: 3px solid black;
+    border-radius: 5px;
+} 
+
+.mini1{
+    background-color: #929DFF;
+    position: absolute;
+    top: 760px;
+    left: 120px;
+    padding: 20px;
+    width: 260px;
+    height: 70px;
+    border-radius: 11px;
+    box-shadow: 10px 10px 10px #ccc;
+}
+
+.mini1 p{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 29px;
+    color: #FFFFFF;
+}
+
+.mini2{
+    background-color: #734CF2;
+    position: absolute;
+    top: 760px;
+    left: 460px;
+    padding: 20px;
+    width: 260px;
+    height: 70px;
+    border-radius: 11px;
+    box-shadow: 10px 10px 10px #ccc;
+}
+
+.mini2 p{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 29px;
+    color: #FFFFFF;
+}
+
+.mini3{
+    background-color: #D288FF;
+    position: absolute;
+    top: 760px;
+    left: 800px;
+    padding: 20px;
+    width: 260px;
+    height: 70px;
+    border-radius: 11px;
+    box-shadow: 10px 10px 10px #ccc;
+}
+
+.mini3 p{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 29px;
+    color: #FFFFFF;
+}
+
+.mini4{
+    background-color: black;
+    position: absolute;
+    top: 760px;
+    left: 1140px;
+    padding: 20px;
+    width: 260px;
+    height: 70px;
+    border-radius: 11px;
+    box-shadow: 10px 10px 10px #ccc;
+}
+
+.mini4 p{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 29px;
+    color: #FFFFFF;
+} 
+
+.g2{
+    position: absolute;
+    top: 795px;
+    right: 3.4%;
+} 
+
+.lastContainer{
+    position: absolute;
+width: 1340px;
+height: 750px;
+left: 101px;
+top: 980px;
+
+background: #483EFF;
+border-radius: 21px;
+}
+
+.your{
+    position: absolute;
+width: 360px;
+height: 133px;
+left: 153px;
+top: 1070px;
+
+background: #BCE0F6;
+box-shadow: 5px 5px 5px black;
+border-radius: 22px;
+} 
+
+.book{
+    position: absolute;
+    width: 360px;
+    height: 133px;
+    left: 153px;
+    top: 1288px;
+    border: 3px solid #FFFFFF;
+    border-radius: 22px;
+}
+.set{
+    position: absolute;
+    width: 360px;
+    height: 133px;
+    left: 153px;
+    top: 1501px;
+    border: 3px solid #FFFFFF;
+    border-radius: 22px;   
+}
+
+.lastinContainer{
+    position: absolute;
+width: 800px;
+height: 630px;
+left: 580px;
+top: 1040px;
+
+background: #FFFFFF;
+border-radius: 19px;
+} 
+.btn{
+    position: absolute;
+    display: flex;
+    width: 130px;
+    height: 40px;
+    background: #000;
+    right: 30px;
+    top: 500px;
+    color: #FFFFFF;
+    font-family: 'DM Sans', sans-serif;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.btn img{
+    padding-left: 10px;
+    padding-top: 8px;
+    width: 40px;
+    height: 30px;
+}
+
