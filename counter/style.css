@@ -1,0 +1,27 @@
+*{
+    background-color: black;
+}
+
+#Container{
+    background-color: black;
+    position: absolute;
+    justify-content: space-around;
+    left: 550px;
+    top: 200px;
+    height: 150px;
+    width: 300px;
+    border: 2px solid gray;
+    color: white;
+    border-radius: 10px;;
+}
+
+.button{
+    margin: 20px;
+    padding-left: 30px;
+    margin-top: 40px;
+}
+button{
+    color: white;
+    border: 1px solid white;
+    margin: 2px;
+}
